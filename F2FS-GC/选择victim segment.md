@@ -3,8 +3,7 @@
 
 我们首先分析`__get_victim`函数，如下所示:
 ```c
-static int __get_victim(struct f2fs_sb_info *sbi, unsigned int *victim,
-			int gc_type)
+static int __get_victim(struct f2fs_sb_info *sbi, uasfdsfgdsgdsg
 {
 	struct sit_info *sit_i = SIT_I(sbi);
 	int ret;asgdsgdfghydfgh
