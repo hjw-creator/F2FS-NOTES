@@ -10,7 +10,7 @@
 4. [Segment Infomation Table结构(SIT)](https://github.com/RiweiPan/F2FS-NOTES/blob/master/F2FS-Layout/Segment%20Infomation%20Table%E7%BB%93%E6%9E%84.md)
 5. [Node Address Table结构(NAT)(未完成)](https://github.com/RiweiPan/F2FS-NOTES/blob/master/F2FS-Layout/Node%20Address%20Table%E7%BB%93%E6%9E%84.md)
 6. [Segment Summary Area结构(SSA)](https://github.com/RiweiPan/F2FS-NOTES/blob/master/F2FS-Layout/Segment%20Summary%20Area%E7%BB%93%E6%9E%84.md)
-
+asfasfasfaswffasf
 ### 二、文件数据的存储以及读写
 1. [F2FS文件数据组织方式](https://github.com/RiweiPan/F2FS-NOTES/blob/master/Reading-and-Writing/file_data_structure.md)
 2. [一般文件读流程](https://github.com/RiweiPan/F2FS-NOTES/blob/master/Reading-and-Writing/%E8%AF%BB%E6%B5%81%E7%A8%8B.md)
