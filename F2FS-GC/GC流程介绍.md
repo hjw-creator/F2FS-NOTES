@@ -9,7 +9,7 @@ F2FS是一个基于Log-structured的文件系统，而垃圾回收则是Log-stru
 
 ## F2FS GC的简介
 基于Log-structured文件系统的特征，GC的主要作用是回收这些invalid的block，以供文件系统继续使用。F2FS的GC分为前台GC和后台GC: 前台GC一般在系统空间紧张的情况下运行，目的是尽快回收空间; 而后台GC则是在系统空闲的情况下进行，目的是在不影响用户体验的情况回收一定的空间。前台GC一般情况下是在checkpoint或者写流程的时候触发，因为F2FS能够感知空间的使用率，如果空间不够了会常触发前台GC加快回收空间，这意味着文件系统空间不足的时候，性能可能会下降。后台GC则是被一个线程间隔一段时间进行触发。而接下来我们主要讨论的都是后台GC。
-
+dsfdsgdsgfdgdfghfdgdfgf
 ## GC线程创建以及GC的触发时机
 GC的启动函数是`start_gc_thread`，它在f2fs进行挂载的时候执行，作用是创建一个gc线程。
 ```c

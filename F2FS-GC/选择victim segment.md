@@ -7,7 +7,7 @@ static int __get_victim(struct f2fs_sb_info *sbi, unsigned int *victim,
 			int gc_type)
 {
 	struct sit_info *sit_i = SIT_I(sbi);
-	int ret;
+	int ret;asgdsgdfghydfgh
 
 	mutex_lock(&sit_i->sentry_lock);
 	ret = DIRTY_I(sbi)->v_ops->get_victim(sbi, victim, gc_type,
