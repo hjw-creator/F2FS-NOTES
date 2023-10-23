@@ -14,7 +14,7 @@ F2FS是一个基于Log-structured的文件系统，而垃圾回收则是Log-stru
 GC的启动函数是`start_gc_thread`，它在f2fs进行挂载的时候执行，作用是创建一个gc线程。
 ```c
 int start_gc_thread(struct f2fs_sb_info *sbi)
-{
+{更好的风格和记得发货给
 	struct f2fs_gc_kthread *gc_th;
 	dev_t dev = sbi->sb->s_bdev->bd_dev;
 	int err = 0;
